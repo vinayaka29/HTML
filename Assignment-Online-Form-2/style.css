@@ -1,0 +1,46 @@
+body {
+    font-family: Arial;
+    background: #e9ecf1;
+    margin: 0;
+}
+
+.title {
+    margin-top: 30px;
+    text-align: center;
+    color: #333;
+}
+
+.form-box, .output-box {
+    background: white;
+    width: 380px;
+    padding: 20px;
+    margin: 25px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #555;
+}
+
+.btn, .back-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
