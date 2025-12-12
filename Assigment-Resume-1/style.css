@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: #f2f2f7;
+}
+
+header {
+    background: #2d2d2d;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background: black;
+    padding: 10px;
+    margin: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.nav-links a:hover,
+.active {
+    background: #4a4a4a;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.resume-section {
+    margin-bottom: 25px;
+}
+
+.biodata-table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.biodata-table th,
+.biodata-table td {
+    border: 1px solid #444;
+    padding: 12px;
+}
+
+.biodata-table th {
+    background: #e6e6e6;
+}
